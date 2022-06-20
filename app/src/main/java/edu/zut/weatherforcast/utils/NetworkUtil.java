@@ -10,14 +10,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class NetworkUtil {
-    //https://tianqiapi.com/api?version=v1&appid=36646344&appsecret=c1lgQbP9
+    //https://tianqiapi.com/api?version=v1&appid=&appsecret=
     //https://v0.yiketianqi.com/api?unescape=1&version=v91&appid=43656176&appsecret=I42og6Lm
     // 一天只有十次机会
-    /**
-     * 18625561：27XjzrB7
-     * 67342285：5XgTk31r
-     * 19267789：Dhu3DShY
-     */
+    
     public static final String URL_WEATHER = "https://tianqiapi.com/api?version=v1&appid=18625561&appsecret=27XjzrB7";
 
     public static String getWeather() {
